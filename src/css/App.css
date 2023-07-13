@@ -1,0 +1,39 @@
+.title {
+  text-align: center;
+}
+
+.status {
+  text-align: center;
+}
+
+.reset {
+  margin: 0 auto;
+  display: block;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+
+.square {
+  width: 150px;
+  height: 80px;
+  font-weight: bolder;
+  font-size: 3rem;
+  padding: auto;
+  margin: 5px;
+}
+
+.board-row {
+  display: flex;
+  align-items: center;
+  max-height: 80px;
+  margin: 5px;
+}
+
+@media (min-width: 300px) {
+  .square {
+    font-size: 3.5rem;
+    width: 100px;
+    padding: 0;
+    text-align: center;
+  }
+}
